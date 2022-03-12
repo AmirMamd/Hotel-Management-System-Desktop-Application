@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Text layoutX="30.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="check in" />
+      <Text layoutX="23.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="check out" />
+      <DatePicker fx:id="d1" layoutX="105.0" layoutY="56.0" />
+      <DatePicker fx:id="d2" layoutX="105.0" layoutY="106.0" />
+      <Text layoutX="67.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Room type:" />
+      <RadioButton fx:id="r1" layoutX="67.0" layoutY="191.0" mnemonicParsing="false" text="single" />
+      <RadioButton fx:id="r2" layoutX="68.0" layoutY="231.0" mnemonicParsing="false" text="double" />
+      <RadioButton fx:id="r3" layoutX="68.0" layoutY="272.0" mnemonicParsing="false" text="triple" />
+      <RadioButton fx:id="r4" layoutX="67.0" layoutY="316.0" mnemonicParsing="false" text="royal suite" />
+      <Button fx:id="b13" layoutX="498.0" layoutY="321.0" mnemonicParsing="false" onAction="#openservicespage" text="confirm" />
+   </children>
+</AnchorPane>
